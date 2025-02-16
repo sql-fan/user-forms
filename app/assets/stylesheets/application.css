@@ -15,8 +15,14 @@
 }
 body {
   height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  overflow: hidden;
   background-color: darkblue;
+}
+
+.flash-messages {
+  background-color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  color: yellowgreen;
 }
